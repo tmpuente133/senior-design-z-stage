@@ -58,8 +58,8 @@ This approach provides:
 - No permanent modification to the vessel
 - Ease of installation and removal
 
-**Image 3 – Camera Mount CAD and Clamp Interface**  
-*(Detailed view of camera mount and ID clamp interface)*  
+**Figure 3. Camera mount and ID clamp interface**  
+<img src= "images/Screenshot%202026-01-31%20183246.jpg" alt="Porcipine Vessel" width="375">
 
 ---
 
@@ -69,12 +69,10 @@ Due to measured cylindricity variation in the mating features, secondary machini
 Structural validation was performed to confirm that the clamp-based interface could support the camera system under operational loading.
 
 **Image 4 – Load Case and Boundary Conditions for Clamp Validation**  
-*(Applied loads and constraints used in analysis)*  
+<img src= "images/Picture3.jpg" alt="Porcipine Vessel" width="375">
 
 **Image 5 – Structural Analysis Results**  
-*(Displacement or stress results used to validate the mounting approach)*  
-
----
+<img src= "images/Picture2.png" alt="Porcipine Vessel" width="425">
 
 ## Manufacturing Documentation
 
@@ -82,8 +80,10 @@ Structural validation was performed to confirm that the clamp-based interface co
 Manufacturing drawings were produced for all custom camera mounting components, including tolerancing strategies compatible with vacuum assembly and alignment requirements.
 
 **Image 6 – Exploded View of Camera Mount Assembly**  
+<img src= "images/Screenshot%202026-01-31%20171220.png" alt="Porcipine Vessel" width="375">
 
 **Image 7 – Example Manufacturing Drawing (ID Clamp Interface Part)**  
+<img src= "images/Screenshot%202026-01-31%20173111.png" alt="Porcipine Vessel" width="375">
 
 ---
 
