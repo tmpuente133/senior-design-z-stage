@@ -1,129 +1,122 @@
-# In-Vacuum Z-Stage and Visualization System  
-### Tin–Hydrogen Interactions in an EUV Source
+# In-Vacuum Visualization System for Tin–Hydrogen Interaction Experiments
 
 ---
 
 ## Overview
-This repository contains the mechanical design, analysis, and implementation of an externally adjustable in-vacuum Z-stage and integrated visualization system for studying tin–hydrogen (Sn–H) interactions inside a vacuum vessel representative of an EUV lithography source.
+This repository documents the design, analysis, and implementation of an **in-vacuum visualization subsystem** developed as part of a larger experimental platform for studying tin–hydrogen (Sn–H) interactions inside an Extreme Ultraviolet (EUV) source test vessel.
 
-This project is part of the **SDSU Mechanical Engineering Senior Design Capstone Program** and is sponsored by **ASML (Extreme Ultraviolet Group, San Diego)**.
+The broader project includes an externally adjustable in-vacuum Z-stage to position material samples. This repository focuses primarily on the **camera subsystem**, which enables continuous visual and thermal monitoring of samples during testing without obstructing operator viewports or requiring manual intervention under vacuum.
+
+This work is part of the **SDSU Mechanical Engineering Senior Design Capstone Program** and is sponsored by **ASML (Extreme Ultraviolet Group, San Diego)**.
 
 ---
 
-## Project Goals
-- Enable **remote vertical adjustment** of test samples under vacuum
-- Improve **repeatability and positional accuracy**
-- Eliminate confined-space manual adjustments
-- Provide **continuous in-vacuum visualization** of samples during testing
-- Maintain compatibility with existing vacuum vessel interfaces
+## Project Context
+Tin–hydrogen interaction experiments are conducted inside a dedicated vacuum vessel to better understand material behavior relevant to EUV lithography sources. During testing, samples are exposed to hydrogen radicals, and physical changes such as spitting, blistering, and surface modification must be monitored in real time.
+
+Prior to this project, visualization was limited by:
+- Fixed external cameras mounted to viewports
+- Blocked operator visibility
+- Inability to continuously monitor samples during experiments
+- Limited flexibility in camera positioning and alignment
+
+The visualization subsystem developed in this project addresses these limitations by placing cameras **inside the vacuum vessel** and mechanically integrating them with the experimental platform.
 
 ---
 
 ## System Overview
 
-### Vacuum Vessel Integration
-The Z-stage and camera system are mounted internally within the vacuum vessel using existing interfaces to avoid permanent modification.
+### Experimental Setup Inside Vacuum Vessel
+The visualization system is mounted internally and positioned to observe samples located on the Z-stage platform. The Z-stage provides positional adjustment, while the camera subsystem provides continuous visual access during testing.
 
-**Vacuum Vessel and Z-Stage Installation**
-
-
----
-
-## Z-Stage Design
-
-### Mechanical Layout
-The Z-stage consists of a rigid linear support structure spanning the vessel interior, with a centrally mounted carriage supporting the sample platform and camera system.
-
-**Z-Stage CAD Assembly**
-
-
-### Load Case Definition
-The primary load case includes the combined mass of the camera system, mounting hardware, and samples applied at the carriage.
-
-**Applied Load and Boundary Conditions**
-
+**Image 1 – Full Vacuum Vessel Assembly with Camera and Z-Stage Installed**  
+*(Overall context showing the camera subsystem integrated inside the vessel)*  
 
 ---
 
-## Engineering Analysis
+## Visualization Subsystem
 
-### Structural FEA
-Finite Element Analysis was performed to evaluate deflection and stress under worst-case loading.
+### Camera System Concept
+The visualization subsystem consists of a digital camera and thermal camera mounted to a rigid internal support, allowing continuous monitoring of test samples without blocking external viewports.
 
-**Total Displacement**
+Design considerations included:
+- Vacuum compatibility and material selection
+- Structural rigidity and vibration resistance
+- Optical alignment and field-of-view constraints
+- Protection from tin vapor and debris
+- Compatibility with existing vessel geometry
 
-
-**Von Mises Stress**
-
-
-Results indicate acceptable deflection and stresses well below material yield limits.
+**Image 2 – Camera Subsystem CAD Mounted Inside Vessel**  
+*(CAD rendering highlighting camera location and orientation)*  
 
 ---
 
-## Visualization System
+### Camera Mounting Strategy
+A non-invasive mounting approach was required to avoid modifying existing vacuum hardware. The camera system is mechanically supported using **Mitee-Bite internal diameter (ID) clamps**, allowing rigid attachment to existing cylindrical features inside the vessel.
 
-### Camera Mounting Concept
-A digital camera and thermal camera are mounted directly to the Z-stage carriage to enable continuous observation without blocking external viewports.
+This approach provides:
+- High positional repeatability
+- Structural stiffness under load
+- No permanent modification to the vessel
+- Ease of installation and removal
 
-**Camera Mount CAD**
+**Image 3 – Camera Mount CAD and Clamp Interface**  
+*(Detailed view of camera mount and ID clamp interface)*  
 
+---
 
-The design includes provisions for alignment, thermal considerations, and replaceable protective optics.
+### ID Clamp Interface and Validation
+Due to measured cylindricity variation in the mating features, secondary machining strategies and tolerancing considerations were developed to ensure reliable clamp engagement and load distribution.
+
+Structural validation was performed to confirm that the clamp-based interface could support the camera system under operational loading.
+
+**Image 4 – Load Case and Boundary Conditions for Clamp Validation**  
+*(Applied loads and constraints used in analysis)*  
+
+**Image 5 – Structural Analysis Results**  
+*(Displacement or stress results used to validate the mounting approach)*  
 
 ---
 
 ## Manufacturing Documentation
 
-### Assembly and Drawings
-Critical components were fully dimensioned and toleranced for fabrication.
+### Drawings and Assembly
+Manufacturing drawings were produced for all custom camera mounting components, including tolerancing strategies compatible with vacuum assembly and alignment requirements.
 
-**Exploded Assembly View**
+**Image 6 – Exploded View of Camera Mount Assembly**  
 
-
-**Example Manufacturing Drawing**
-
+**Image 7 – Example Manufacturing Drawing (ID Clamp Interface Part)**  
 
 ---
 
 ## Subsystem Ownership and Contributions
 
-Subsystem ownership was distributed to ensure technical depth and accountability.
+Subsystem ownership was assigned to ensure technical accountability and design depth.
 
-### Thermal and Digital Camera Subsystem  
+### Visualization and Camera Subsystem  
 **Primary Owner: Tomas Puente**
 
-- System-level concept and integration of the thermal camera
+Responsibilities included:
+- System-level concept development for in-vacuum visualization
+- Integration of digital and thermal cameras
 - Mechanical design of camera mounting hardware
 - Optical alignment and field-of-view considerations
 - Thermal, structural, and contamination constraints
-- Integration of camera systems with the Z-stage carriage
+- Integration of the camera subsystem with the Z-stage platform
 
-### ID Clamp–Based Camera Mounting Method  
+### ID Clamp–Based Mounting Technique  
 **Primary Owner: Tomas Puente**
 
-- Development of a mounting strategy using Mitee-Bite ID clamps
+- Selection of Mitee-Bite ID clamps as a non-invasive mounting solution
 - Interface design leveraging existing vessel geometry
-- Secondary machining strategy to accommodate measured cylindricity variation
+- Secondary machining strategy to accommodate cylindricity variation
 - Structural validation of the clamp-based mounting approach
 - Creation of manufacturing drawings and tolerancing strategy
-
-This approach enabled a rigid, repeatable, and non-invasive camera mounting solution.
 
 ---
 
 ## Current Project Status
-The project has completed the design and analysis phase and is **entering the manufacturing and assembly period**. Custom components are being fabricated and procured, with system assembly and validation testing to follow.
+The design and analysis phases of the visualization subsystem have been completed. The project is **currently entering the manufacturing and assembly phase**, with custom camera mounting components being fabricated and procured.
 
-This repository will be **updated throughout the semester** as manufacturing, assembly, and testing progress.
+This repository will be **updated throughout the semester** as manufacturing, assembly, integration, and testing progress.
 
----
-
-## Team
-SDSU Mechanical Engineering – Senior Design Capstone  
-*(Team members to be added)*
-
----
-
-## Sponsor
-**ASML – Extreme Ultraviolet (EUV) Group**  
-San Diego, California
