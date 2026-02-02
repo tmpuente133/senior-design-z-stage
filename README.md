@@ -1,5 +1,4 @@
-# In-Vacuum Visualization System for Tin–Hydrogen Interaction Experiments
-
+# In-vacuum Z-Stage and test visualization metrology of tin-H interactions in the EUV source - Capstone (ASML X SDSU)
 ---
 
 ## Overview
