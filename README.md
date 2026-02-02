@@ -82,7 +82,7 @@ Structural validation was performed to confirm that the clamp-based interface co
 ### Drawings and Assembly
 Manufacturing drawings were produced for all custom camera mounting components, including tolerancing strategies compatible with vacuum assembly and alignment requirements.
 
-**Image 6 – Exploded View of Camera Mount Assembly**  
+**Image 6 – Exploded View of Reducer and Zinc-Selenide Viewport Assembly**  
 
 <img src= "images/Screenshot%202026-01-31%20171220.png" alt="Porcipine Vessel" width="375">
 
