@@ -15,16 +15,20 @@ To address these limitations, this project integrates:
 Together, these systems provide continuous optical and thermal access to samples without venting the chamber or obstructing operator visibility. The visualization system will also work in parallel with a stage system and as a whole makes up the project which is apart of the **SDSU Mechanical Engineering Senior Design Capstone Program** and is sponsored by **ASML (Extreme Ultraviolet Group, San Diego)**.
 
 ### System Level Design
-
-<img src= "images/sld.png" width="700">
-
+<p align="center">
+  <img src="images/sld.png" width="700"><br>
+  <em>Figure – System-level diagram showing internal digital imaging, external thermal imaging, and integration with the Z-stage inside the EUV test vessel.</em>
+</p>
 
 ---
 
 ## Visualization Subsystem
 The visualization subsystem provides continuous monitoring of samples mounted on an externally adjustable in-vacuum Z-stage. While the Z-stage controls sample position relative to the hydrogen radical source, the camera subsystem enables **real-time visual and thermal observation** throughout testing.
 
-<img src="images/ZStage_Setup.png" alt="Porcupine Vessel Setup" width="375">
+<p align="center">
+  <img src="images/ZStage_Setup.png" width="375"><br>
+  <em>Figure – Internal view of the Porcupine vacuum vessel showing Z-stage placement and visualization system geometry.</em>
+</p>
 
 ---
 
@@ -42,7 +46,10 @@ Key design drivers included:
 - Protection from tin vapor and debris  
 - Compatibility with existing vessel geometry and feedthroughs  
 
-<img src="images/Picture4.png" alt="Digital Camera Assembly" width="375">
+<p align="center">
+  <img src="images/Picture4.png" width="375"><br>
+  <em>Figure – Internal digital camera assembly used for high-resolution visualization of test samples.</em>
+</p>
 
 ---
 
@@ -55,7 +62,10 @@ This strategy was selected because it:
 - Allows installation and removal without permanent modification  
 - Enables precise alignment within tight spatial constraints  
 
-<img src="images/Screenshot%202026-01-31%20183246.jpg" alt="ID Clamp Interface" width="375">
+<p align="center">
+  <img src="images/Screenshot%202026-01-31%20183246.jpg" width="375"><br>
+  <em>Figure – ID expansion clamp interface used to mount the internal camera rail system to existing vessel geometry.</em>
+</p>
 
 ---
 
@@ -66,9 +76,15 @@ Finite element analysis was performed to evaluate clamp behavior under conservat
 
 Analysis results confirmed that the clamp-based interface provides sufficient stiffness and safety margin for operational use without risk of slip or localized overstress of the vessel wall.
 
-<img src="images/Picture3.jpg" alt="Clamp Load Case" width="375">
+<p align="center">
+  <img src="images/Picture3.jpg" width="375"><br>
+  <em>Figure – Load case and boundary conditions used for structural validation of the ID clamp interface.</em>
+</p>
 
-<img src="images/Picture2.png" alt="Clamp FEA Results" width="425">
+<p align="center">
+  <img src="images/Picture2.png" width="425"><br>
+  <em>Figure – Finite element analysis results showing stress distribution in the ID clamp under worst-case loading.</em>
+</p>
 
 ---
 
@@ -84,7 +100,10 @@ Standard vacuum viewports are opaque to long-wave infrared wavelengths. To enabl
 
 ZnSe was selected over germanium due to **availability, cost, and equivalent optical performance** for the FLIR E75 wavelength range, as validated during design trade studies.
 
-<img src="images/Screenshot%202026-01-31%20171220.png" alt="ZnSe Viewport Assembly" width="375">
+<p align="center">
+  <img src="images/Screenshot%202026-01-31%20171220.png" width="375"><br>
+  <em>Figure – Exploded view of the reducer flange and zinc selenide (ZnSe) viewport assembly used for thermal imaging.</em>
+</p>
 
 ---
 
@@ -98,7 +117,10 @@ Manufacturing drawings were produced for all custom camera mounting components, 
 
 Drawings reflect vacuum-compatible tolerancing, alignment requirements, and DFMA considerations.
 
-<img src="images/Screenshot%202026-01-31%20173111.png" alt="Manufacturing Drawing Example" width="375">
+<p align="center">
+  <img src="images/Screenshot%202026-01-31%20173111.png" width="375"><br>
+  <em>Figure – Example manufacturing drawing for a custom camera mounting interface component.</em>
+</p>
 
 ---
 
