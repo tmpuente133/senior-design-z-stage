@@ -12,7 +12,12 @@ To address these limitations, this project integrates:
 - an **internal digital camera** mounted inside the vacuum vessel for high-resolution visual monitoring, and  
 - an **external thermal camera** viewing through a **zinc selenide (ZnSe) infrared viewport** for temperature measurement.
 
-Together, these systems provide continuous optical and thermal access to samples without venting the chamber or obstructing operator visibility. This work is part of the **SDSU Mechanical Engineering Senior Design Capstone Program** and is sponsored by **ASML (Extreme Ultraviolet Group, San Diego)**.
+Together, these systems provide continuous optical and thermal access to samples without venting the chamber or obstructing operator visibility. The visualization system will also work in parallel with a stage system and as a whole makes up the project which is apart of the **SDSU Mechanical Engineering Senior Design Capstone Program** and is sponsored by **ASML (Extreme Ultraviolet Group, San Diego)**.
+
+### System Level Design
+
+<img src= "images/sld.png" width="700">
+
 
 ---
 
