@@ -1,168 +1,401 @@
-# In-vacuum Z-Stage and Test Visualization Metrology of Tin–H Interactions in the EUV Source  
-### Senior Design Capstone — ASML × SDSU
+# Hybrid Digital and Thermal Visualization System for In-Vacuum Tin–Hydrogen Interaction Testing
+### SDSU Mechanical Engineering Senior Design Capstone — Sponsored by ASML EUV Group
 
 ---
+
+## Project Overview
+
+This repository documents the design, analysis, fabrication, integration, and validation of a hybrid visualization subsystem developed for ASML’s Extreme Ultraviolet (EUV) source test vessel.
+
+The project was developed as part of the **San Diego State University Mechanical Engineering Senior Design Program** in collaboration with **ASML’s EUV Group** in San Diego.
+
+The visualization subsystem was designed to improve observation capabilities during vacuum testing of tin–hydrogen (Sn–H) interactions. These experiments involve energetic surface phenomena such as:
+
+- Tin spitting
+- Surface modification
+- Blister formation
+- Localized heating
+
+Historically, operators relied on fixed external cameras and limited viewport visibility, restricting observation quality and requiring chamber venting for inspection.
+
+To address these limitations, the system integrates:
+
+- an internally mounted digital imaging subsystem for high-resolution visual observation, and
+- an externally mounted thermal imaging subsystem utilizing a zinc selenide (ZnSe) infrared viewport.
+
+Together, these systems provide continuous optical and thermal monitoring without breaking vacuum or obstructing operator visibility.
+
+---
+
+# [INSERT SYSTEM LEVEL DIAGRAM IMAGE HERE]
+
+```html
+<!-- Example -->
+<!-- <img src="images/system_level_diagram.png" width="850"> -->
+```
+
+---
+
+# Digital Visualization Subsystem
 
 ## Overview
-This repository documents the design, analysis, and implementation of a **hybrid visualization subsystem** developed for an Extreme Ultraviolet (EUV) source test vessel used to study tin–hydrogen (Sn–H) interactions.
 
-During testing, material samples are exposed to hydrogen radicals under vacuum, producing physical and thermal effects such as **tin spitting, surface modification, blister formation, and localized heating**. Continuous monitoring of these effects is critical, yet historically limited by fixed external cameras, obstructed operator viewports, and the need to vent the chamber for inspection.
+The digital visualization subsystem was designed to provide real-time, unobstructed imaging of experimental coupons during testing inside ASML’s Porcupine vacuum vessel.
 
-To address these limitations, this project integrates:
-- an **internal digital camera** mounted inside the vacuum vessel for high-resolution visual monitoring, and  
-- an **external thermal camera** viewing through a **zinc selenide (ZnSe) infrared viewport** for temperature measurement.
+The system needed to satisfy several engineering constraints:
 
-Together, these systems provide continuous optical and thermal access to samples without venting the chamber or obstructing operator visibility. The visualization system will also work in parallel with a stage system and as a whole makes up the project which is apart of the **SDSU Mechanical Engineering Senior Design Capstone Program** and is sponsored by **ASML (Extreme Ultraviolet Group, San Diego)**.
+- Vacuum compatibility
+- Non-invasive integration
+- Structural rigidity
+- Repeatable positioning
+- Adjustable articulation
+- Compatibility with existing vessel geometry
+- Minimal obstruction of surrounding hardware
 
-### System Level Design
-<p align="center">
-  <img src="images/sld.png" width="700"><br>
-  <em>Figure – System-level diagram showing internal digital imaging, external thermal imaging, and integration with the Z-stage inside the EUV test vessel.</em>
-</p>
-
----
-
-## Visualization Subsystem
-The visualization subsystem provides continuous monitoring of samples mounted on an externally adjustable in-vacuum Z-stage. While the Z-stage controls sample position relative to the hydrogen radical source, the camera subsystem enables **real-time visual and thermal observation** throughout testing.
-
-<p align="center">
-  <img src="images/ZStage_Setup.png" width="375"><br>
-  <em>Figure – Internal view of the Porcupine vacuum vessel showing Z-stage placement and visualization system geometry.</em>
-</p>
+The final design utilizes an internally mounted camera assembly supported by ID expansion clamps and an adjustable 80/20 rail system.
 
 ---
 
-### Camera System Concept
-The visualization subsystem consists of:
-- an **internal digital camera** for high-resolution visual inspection of surface phenomena, and  
-- an **external thermal camera** viewing through an infrared-transparent viewport.
-
-This hybrid approach was selected to balance image quality, vacuum compatibility, and system reliability.
-
-Key design drivers included:
-- Vacuum compatibility and low-outgassing materials  
-- Structural rigidity and repeatable positioning  
-- Optical alignment and field-of-view constraints  
-- Protection from tin vapor and debris  
-- Compatibility with existing vessel geometry and feedthroughs  
-
-<p align="center">
-  <img src="images/Picture4.png" width="375"><br>
-  <em>Figure – Internal digital camera assembly used for high-resolution visualization of test samples.</em>
-</p>
+# [INSERT DIGITAL CAMERA OVERVIEW IMAGE HERE]
 
 ---
 
-### Camera Mounting Strategy (ID Clamp–Based)
-A non-invasive mounting approach was required to avoid modifying or loading critical vacuum hardware. The internal digital camera system is mechanically supported using **Mitee-Bite internal diameter (ID) expansion clamps**, allowing rigid attachment to existing cylindrical features inside the vessel.
+## Digital Camera Design Trade Studies
 
-This strategy was selected because it:
-- Provides **high positional repeatability** without welding or drilling  
-- Transfers load directly into the vessel wall rather than CF flanges  
-- Allows installation and removal without permanent modification  
-- Enables precise alignment within tight spatial constraints  
+Several camera positioning architectures were evaluated during concept development.
 
-<p align="center">
-  <img src="images/Screenshot%202026-01-31%20183246.jpg" width="375"><br>
-  <em>Figure – ID expansion clamp interface used to mount the internal camera rail system to existing vessel geometry.</em>
-</p>
+### Concepts Evaluated
 
----
+- External tripod-mounted camera
+- Internal articulating arm
+- Internal scissor-lift mechanism
+- Internal 80/20 rail system
 
-### ID Clamp Interface: Structural Validation
-The ID clamp mounting approach required validation because the camera system is supported entirely through frictional contact with the vessel’s internal cylindrical features. This interface carries both the weight of the camera assembly and off-axis moments introduced by camera standoff.
+Evaluation criteria included:
 
-Finite element analysis was performed to evaluate clamp behavior under conservative load cases, including gravitational loading and induced moments. Boundary conditions were defined to represent contact between the expanded clamp and the vessel wall.
+- Articulation performance
+- Structural rigidity
+- Reliability
+- Space envelope
+- Manufacturability
+- Integration complexity
+- Cost
 
-Analysis results confirmed that the clamp-based interface provides sufficient stiffness and safety margin for operational use without risk of slip or localized overstress of the vessel wall.
+The internally mounted **80/20 rail system** was selected due to its balance of:
 
-<p align="center">
-  <img src="images/Picture3.jpg" width="375"><br>
-  <em>Figure – Load case and boundary conditions used for structural validation of the ID clamp interface.</em>
-</p>
-
-<p align="center">
-  <img src="images/Picture2.png" width="425"><br>
-  <em>Figure – Finite element analysis results showing stress distribution in the ID clamp under worst-case loading.</em>
-</p>
+- Rigidity
+- Positioning capability
+- Modular adjustability
+- Integration compatibility
+- Reliability inside the vacuum environment
 
 ---
 
-## Thermal Imaging and Infrared Viewport
+# [INSERT DIGITAL CAMERA TRADE STUDY IMAGE HERE]
 
-### Thermal Viewport: Why It Is Required
-In addition to visual inspection, **thermal monitoring** of samples is required to understand tin–hydrogen interaction dynamics during energetic events such as spitting and surface reactions.
+---
 
-Standard vacuum viewports are opaque to long-wave infrared wavelengths. To enable thermal imaging:
-- a **zinc selenide (ZnSe) viewport** was selected for its infrared transmissivity,  
-- the viewport allows an external **FLIR thermal camera** to image the sample region without introducing electronics into the vacuum, and  
-- the external mounting approach reduces contamination risk and simplifies integration.
+## Camera Mounting Strategy
 
-ZnSe was selected over germanium due to **availability, cost, and equivalent optical performance** for the FLIR E75 wavelength range, as validated during design trade studies.
+A non-invasive mounting solution was required to avoid modifying critical vacuum vessel hardware.
 
-<p align="center">
-  <img src="images/Screenshot%202026-01-31%20171220.png" width="375"><br>
-  <em>Figure – Exploded view of the reducer flange and zinc selenide (ZnSe) viewport assembly used for thermal imaging.</em>
-</p>
+The digital camera system interfaces with the vessel using **Mitee-Bite ID expansion clamps**, which mount directly to existing cylindrical geometry inside the chamber.
+
+### Advantages of the ID Clamp System
+
+- No permanent chamber modification
+- High positional repeatability
+- Strong radial clamping force
+- Easy installation and removal
+- Compact integration footprint
+- Direct load transfer into vessel geometry
+
+The mounting strategy allows stable positioning of the camera assembly while maintaining flexibility for future experimental configurations.
+
+---
+
+# [INSERT ID CLAMP IMAGE HERE]
+
+---
+
+## Structural Validation of Clamp Interface
+
+Because the camera assembly is fully supported through frictional contact with the vessel wall, structural validation of the clamp interface was required.
+
+Finite element analysis was performed to evaluate:
+
+- Stress distribution
+- Contact loading
+- Off-axis moment loading
+- Clamp stiffness
+- Potential slip conditions
+
+Results confirmed that the mounting interface provides sufficient stiffness and safety margin under operational loading conditions.
+
+---
+
+# [INSERT FEA IMAGE HERE]
+
+# [INSERT LOAD CASE IMAGE HERE]
+
+---
+
+## Final Digital Camera Design
+
+The final digital imaging subsystem consists of:
+
+- Dual ID expansion clamps
+- 80/20 extrusion rail assembly
+- Adjustable camera carriage
+- Commercial off-the-shelf gimbal
+- Adjustable articulation geometry
+
+The system provides stable imaging throughout the vessel workspace while remaining easily adjustable for future testing configurations.
+
+---
+
+# [INSERT FINAL DIGITAL CAMERA CAD IMAGE HERE]
+
+# [INSERT FINAL INTEGRATED CAMERA IMAGE HERE]
+
+---
+
+## Digital Camera Fabrication and Assembly
+
+The subsystem progressed through prototyping, fabrication, and full in-vacuum integration.
+
+### Fabrication Activities
+
+- CMM measurement of vessel geometry
+- 3D printed prototype validation
+- Turning and tapping of ID clamp hardware
+- Rail assembly integration
+- Final subsystem fit validation
+
+Rapid prototyping significantly reduced manufacturing risk and prevented costly rework of long lead-time hardware.
+
+---
+
+# [INSERT FABRICATION COLLAGE HERE]
+
+---
+
+## Digital Camera Validation Testing
+
+Validation testing confirmed:
+
+- Full articulation without collision
+- Stable imaging throughout system motion
+- No clamp slippage under excessive loading
+- Sufficient field-of-view coverage
+- Compatibility with surrounding vessel hardware
+
+The final subsystem successfully met all digital visualization performance requirements.
+
+---
+
+# [INSERT DIGITAL CAMERA TESTING IMAGE HERE]
+
+---
+
+# Thermal Imaging Subsystem
+
+## Overview
+
+In addition to optical visualization, thermal monitoring of test coupons was required to better understand tin–hydrogen interaction behavior during energetic surface events.
+
+Because standard vacuum viewports are opaque to long-wave infrared radiation, a dedicated infrared imaging solution was developed.
+
+The thermal subsystem consists of:
+
+- FLIR E75 thermal camera
+- Zinc selenide (ZnSe) infrared viewport
+- Custom thermal camera mounting assembly
+- Integrated reducer flange interface
+
+The system enables non-invasive thermal monitoring without introducing electronics into the vacuum chamber.
+
+---
+
+# [INSERT THERMAL SYSTEM OVERVIEW IMAGE HERE]
+
+---
+
+## Thermal Camera Trade Studies
+
+Several infrared viewport materials and mounting strategies were evaluated during subsystem development.
+
+### Viewport Material Study
+
+Materials considered included:
+
+- Germanium
+- Zinc Selenide (ZnSe)
+
+ZnSe was selected due to:
+
+- High infrared transmissivity
+- Lower cost
+- Better availability
+- Compatibility with FLIR wavelength range
+
+Trade studies also considered:
+
+- Integration complexity
+- Alignment capability
+- Vacuum compatibility
+- Manufacturability
+- Long-term serviceability
+
+---
+
+# [INSERT THERMAL TRADE STUDY IMAGE HERE]
+
+---
+
+## Final Thermal Camera Design
+
+The final thermal subsystem includes:
+
+- Custom FLIR mounting bracket
+- Adjustable alignment interface
+- ZnSe viewport assembly
+- Integrated reducer flange
+
+The system was designed to:
+
+- Maintain vacuum integrity
+- Minimize vibration and misalignment
+- Preserve operator viewport access
+- Enable continuous thermal monitoring during testing
+
+---
+
+# [INSERT FLIR MOUNT CAD IMAGE HERE]
+
+# [INSERT ZNSE VIEWPORT CAD IMAGE HERE]
+
+# [INSERT THERMAL SYSTEM INTEGRATION IMAGE HERE]
+
+---
+
+## Thermal System Fabrication and Assembly
+
+Fabrication and integration activities included:
+
+- Rapid prototype development using additive manufacturing
+- Installation of heat-set threaded inserts
+- Hardware integration and alignment
+- Thermal camera fit validation
+- Final subsystem integration
+
+The subsystem was designed for modularity, maintainability, and future experimental flexibility.
+
+---
+
+# [INSERT THERMAL FABRICATION IMAGE HERE]
+
+---
+
+## Thermal System Validation
+
+Validation testing confirmed:
+
+- Clear thermal imaging of test coupons
+- Stable thermal camera positioning
+- Proper optical alignment through viewport
+- Full coupon visibility within operating field of view
+- Distinguishable thermal gradients during operation
+
+The subsystem successfully met all thermal imaging performance requirements.
+
+---
+
+# [INSERT THERMAL VALIDATION IMAGE HERE]
+
+# [INSERT THERMAL OUTPUT IMAGE HERE]
 
 ---
 
 ## Manufacturing Documentation
 
-### Drawings and Assembly
-Manufacturing drawings were produced for all custom camera mounting components, including:
-- ID clamp interface features  
-- Gimbal and rail mounting adapters  
-- Viewport and reducer interfaces  
+Manufacturing drawings were produced for all custom subsystem components, including:
 
-Drawings reflect vacuum-compatible tolerancing, alignment requirements, and DFMA considerations.
+- ID clamp interfaces
+- Camera mounting hardware
+- Thermal camera mounting brackets
+- Viewport interfaces
+- Alignment hardware
 
-<p align="center">
-  <img src="images/Screenshot%202026-01-31%20173111.png" width="375"><br>
-  <em>Figure – Example manufacturing drawing for a custom camera mounting interface component.</em>
-</p>
+Drawings incorporated:
 
----
-
-## Subsystem Ownership and Contributions
-
-Subsystem ownership was assigned to ensure technical accountability and depth of design.
-
-### Visualization and Camera Subsystem  
-**Primary Owner: Tomas Puente**
-
-Responsibilities included:
-- System-level concept development for hybrid visualization  
-- Integration of digital and thermal imaging systems  
-- Mechanical design of camera mounting hardware  
-- Optical alignment and field-of-view analysis  
-- Contamination mitigation and lens protection strategy  
-- Integration with the Z-stage experimental platform  
+- Vacuum-compatible tolerancing
+- GD&T standards
+- DFMA considerations
+- Accessibility and assembly requirements
 
 ---
 
-### ID Clamp–Based Mounting Technique  
-**Primary Owner: Tomas Puente**
-
-- Selection of Mitee-Bite ID clamps as a non-invasive mounting solution  
-- Interface design leveraging existing vessel geometry  
-- Structural validation of clamp-based mounting under operational loads  
-- Creation of manufacturing drawings and tolerancing strategy  
+# [INSERT DRAWING IMAGE HERE]
 
 ---
 
-### Thermal Viewport and IR Imaging Integration  
-**Primary Owner: Tomas Puente**
+## Lessons Learned
 
-- Selection and justification of ZnSe viewport material  
-- Mechanical integration of reducer, viewport, and thermal camera  
-- Trade study between germanium and ZnSe optics  
-- Validation of optical access without vacuum intrusion  
-- Alignment and standoff considerations for thermal imaging  
+Key engineering lessons from the project included:
+
+- Physical fit validation is often more reliable than idealized measurement data alone.
+- Early prototyping significantly reduces manufacturing and schedule risk.
+- Vacuum-compatible design constraints strongly influence subsystem architecture.
+- Modularity improves integration flexibility and future maintainability.
+- Integration between independently developed subsystems is often the most challenging aspect of system development.
+
+One major lesson involved validating vessel geometry using low-cost 3D printed prototypes before machining production hardware, preventing substantial cost and lead-time risk.
 
 ---
 
-## Current Project Status
-The visualization subsystem has completed **design, analysis, and documentation**. The project is currently entering the **manufacturing and assembly phase**, with custom mounting components being fabricated and procured.
+## Future Improvements
 
-This repository will be **updated throughout the semester** as manufacturing, assembly, integration, and testing progress.
+Potential future improvements include:
+
+- Automated camera articulation
+- Improved cable routing and strain relief
+- Permanent thermal camera alignment fixtures
+- Expanded thermal characterization capability
+- Automated imaging synchronization
+- Additional contamination protection for optical components
+
+---
+
+## Contributions
+
+### Tomas Puente
+Primary ownership of:
+
+- Hybrid visualization subsystem architecture
+- Digital camera subsystem integration
+- Thermal imaging subsystem integration
+- ID clamp mounting strategy
+- Optical alignment analysis
+- Thermal viewport integration
+- Structural validation of mounting interfaces
+- Manufacturing documentation
+
+---
+
+## Project Outcome
+
+The final visualization subsystem was successfully integrated into ASML’s vacuum vessel environment.
+
+Project accomplishments included:
+
+- Successful in-vacuum digital imaging integration
+- Real-time thermal monitoring capability
+- Improved operator visibility and positioning flexibility
+- Continuous observation without venting the chamber
+- Stable subsystem performance under operational conditions
+- Completion under project budget
+
+The final system established a modular visualization platform for continued experimental development and future subsystem expansion.
+
+---
