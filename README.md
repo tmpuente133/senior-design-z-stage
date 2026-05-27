@@ -27,12 +27,7 @@ Together, these systems provide continuous optical and thermal monitoring withou
 
 ---
 
-# [INSERT SYSTEM LEVEL DIAGRAM IMAGE HERE]
-
-```html
-<!-- Example -->
-<!-- <img src="images/system_level_diagram.png" width="850"> -->
-```
+<!-- <img src="images/sld.png" width="850"> 
 
 ---
 
