@@ -27,7 +27,11 @@ Together, these systems provide continuous optical and thermal monitoring withou
 
 ---
 
-<!-- <img src="images/sld.png" width="850"> 
+### System Level Design
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <em>Figure – System-level diagram showing internal digital imaging, external thermal imaging, and subsystem integration inside the EUV test vessel.</em>
+</p>
 
 ---
 
@@ -51,7 +55,11 @@ The final design utilizes an internally mounted camera assembly supported by ID 
 
 ---
 
-# [INSERT DIGITAL CAMERA OVERVIEW IMAGE HERE]
+### Digital Camera System Overview
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <em>Figure – Internal view of the vacuum vessel showing the positioning and integration of the digital camera subsystem.</em>
+</p>
 
 ---
 
@@ -86,7 +94,11 @@ The internally mounted **80/20 rail system** was selected due to its balance of:
 
 ---
 
-# [INSERT DIGITAL CAMERA TRADE STUDY IMAGE HERE]
+### Digital Camera Trade Studies
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <em>Figure – Weighted decision matrix and concept evaluation used to select the final internal camera mounting architecture.</em>
+</p>
 
 ---
 
@@ -109,7 +121,11 @@ The mounting strategy allows stable positioning of the camera assembly while mai
 
 ---
 
-# [INSERT ID CLAMP IMAGE HERE]
+### ID Clamp Mounting Interface
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="450"><br>
+  <em>Figure – ID expansion clamp interface used to rigidly mount the digital camera rail system to existing vessel geometry.</em>
+</p>
 
 ---
 
@@ -129,9 +145,17 @@ Results confirmed that the mounting interface provides sufficient stiffness and 
 
 ---
 
-# [INSERT FEA IMAGE HERE]
+### ID Clamp Load Case
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="450"><br>
+  <em>Figure – Boundary conditions and loading configuration used to validate the structural behavior of the ID clamp interface.</em>
+</p>
 
-# [INSERT LOAD CASE IMAGE HERE]
+### Finite Element Analysis Results
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <em>Figure – Finite element analysis results showing stress distribution within the ID clamp under operational loading conditions.</em>
+</p>
 
 ---
 
@@ -149,9 +173,17 @@ The system provides stable imaging throughout the vessel workspace while remaini
 
 ---
 
-# [INSERT FINAL DIGITAL CAMERA CAD IMAGE HERE]
+### Final Digital Camera CAD Assembly
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="600"><br>
+  <em>Figure – Final CAD assembly of the internally mounted digital camera subsystem.</em>
+</p>
 
-# [INSERT FINAL INTEGRATED CAMERA IMAGE HERE]
+### Integrated Digital Camera System
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="600"><br>
+  <em>Figure – Fully integrated digital imaging subsystem installed inside the vacuum vessel.</em>
+</p>
 
 ---
 
@@ -171,7 +203,11 @@ Rapid prototyping significantly reduced manufacturing risk and prevented costly 
 
 ---
 
-# [INSERT FABRICATION COLLAGE HERE]
+### Digital Camera Fabrication and Prototyping
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+</p>
 
 ---
 
@@ -189,7 +225,11 @@ The final subsystem successfully met all digital visualization performance requi
 
 ---
 
-# [INSERT DIGITAL CAMERA TESTING IMAGE HERE]
+### Digital Camera System Validation
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="650"><br>
+  <em>Figure – Validation testing of the digital camera subsystem including articulation range, field-of-view verification, and clamp stability testing.</em>
+</p>
 
 ---
 
@@ -212,7 +252,11 @@ The system enables non-invasive thermal monitoring without introducing electroni
 
 ---
 
-# [INSERT THERMAL SYSTEM OVERVIEW IMAGE HERE]
+### Thermal Imaging System Overview
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="600"><br>
+  <em>Figure – Thermal imaging subsystem showing FLIR integration and ZnSe viewport positioning relative to the vacuum vessel.</em>
+</p>
 
 ---
 
@@ -244,7 +288,11 @@ Trade studies also considered:
 
 ---
 
-# [INSERT THERMAL TRADE STUDY IMAGE HERE]
+### Thermal Camera Trade Studies
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <em>Figure – Trade study evaluation comparing infrared viewport materials and thermal subsystem integration concepts.</em>
+</p>
 
 ---
 
@@ -266,11 +314,23 @@ The system was designed to:
 
 ---
 
-# [INSERT FLIR MOUNT CAD IMAGE HERE]
+### FLIR Mounting Assembly
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <em>Figure – Custom thermal camera mounting assembly designed for stable FLIR positioning and alignment.</em>
+</p>
 
-# [INSERT ZNSE VIEWPORT CAD IMAGE HERE]
+### ZnSe Viewport Assembly
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <em>Figure – Exploded view of the ZnSe infrared viewport assembly integrated into the reducer flange system.</em>
+</p>
 
-# [INSERT THERMAL SYSTEM INTEGRATION IMAGE HERE]
+### Final Thermal System Integration
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="650"><br>
+  <em>Figure – Fully integrated thermal imaging subsystem mounted to the vacuum vessel.</em>
+</p>
 
 ---
 
@@ -288,7 +348,11 @@ The subsystem was designed for modularity, maintainability, and future experimen
 
 ---
 
-# [INSERT THERMAL FABRICATION IMAGE HERE]
+### Thermal System Fabrication
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
+</p>
 
 ---
 
@@ -306,9 +370,17 @@ The subsystem successfully met all thermal imaging performance requirements.
 
 ---
 
-# [INSERT THERMAL VALIDATION IMAGE HERE]
+### Thermal Imaging Validation
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="650"><br>
+  <em>Figure – Validation testing of the thermal imaging subsystem including alignment verification and field-of-view analysis.</em>
+</p>
 
-# [INSERT THERMAL OUTPUT IMAGE HERE]
+### Thermal Imaging Output
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <em>Figure – Thermal imaging output captured through the ZnSe viewport during subsystem validation testing.</em>
+</p>
 
 ---
 
@@ -331,7 +403,11 @@ Drawings incorporated:
 
 ---
 
-# [INSERT DRAWING IMAGE HERE]
+### Manufacturing Documentation
+<p align="center">
+  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <em>Figure – Example manufacturing drawing showing GD&T implementation and vacuum-compatible tolerancing for subsystem hardware.</em>
+</p>
 
 ---
 
@@ -365,6 +441,7 @@ Potential future improvements include:
 ## Contributions
 
 ### Tomas Puente
+
 Primary ownership of:
 
 - Hybrid visualization subsystem architecture
