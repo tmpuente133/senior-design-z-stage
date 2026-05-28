@@ -266,7 +266,7 @@ The system enables non-invasive thermal monitoring without introducing electroni
 
 ### Thermal Imaging System Overview
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="600"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/flirintegratedredbox.png" width="500"><br>
   <em>Figure – Thermal imaging subsystem showing FLIR integration and ZnSe viewport positioning relative to the vacuum vessel.</em>
 </p>
 
@@ -290,21 +290,25 @@ ZnSe was selected due to:
 - Better availability
 - Compatibility with FLIR wavelength range
 
-Trade studies also considered:
+  
+### Thermal Camera Trade Studies
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermalcamtradestudy.png" width="700"><br>
+  <em>Figure – Trade study evaluation comparing infrared viewport materials and thermal subsystem integration concepts.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermalcamtradestudy1.png" width="700"><br>
+  <em>Figure – Trade study evaluation comparing infrared viewport materials and thermal subsystem integration concepts.</em>
+</p>
+
+Seperate trade studies also considered:
 
 - Integration complexity
 - Alignment capability
 - Vacuum compatibility
 - Manufacturability
 - Long-term serviceability
-
----
-
-### Thermal Camera Trade Studies
-<p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
-  <em>Figure – Trade study evaluation comparing infrared viewport materials and thermal subsystem integration concepts.</em>
-</p>
 
 ---
 
@@ -328,20 +332,14 @@ The system was designed to:
 
 ### FLIR Mounting Assembly
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/flirmountexploded.png" width="500"><br>
   <em>Figure – Custom thermal camera mounting assembly designed for stable FLIR positioning and alignment.</em>
 </p>
 
 ### ZnSe Viewport Assembly
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/viewportexploded.png" width="500"><br>
   <em>Figure – Exploded view of the ZnSe infrared viewport assembly integrated into the reducer flange system.</em>
-</p>
-
-### Final Thermal System Integration
-<p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="650"><br>
-  <em>Figure – Fully integrated thermal imaging subsystem mounted to the vacuum vessel.</em>
 </p>
 
 ---
@@ -362,7 +360,17 @@ The subsystem was designed for modularity, maintainability, and future experimen
 
 ### Thermal System Fabrication
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/3dflirfab.HEIC" width="700"><br>
+  <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/heatsetinsert.HEIC" width="700"><br>
+  <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/hardwareinstallflirmount.png" width="700"><br>
   <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
 </p>
 
@@ -384,13 +392,18 @@ The subsystem successfully met all thermal imaging performance requirements.
 
 ### Thermal Imaging Validation
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="650"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/fovanalyis.png" width="650"><br>
+  <em>Figure – Validation testing of the thermal imaging subsystem including alignment verification and field-of-view analysis.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/centeredlens.png" width="650"><br>
   <em>Figure – Validation testing of the thermal imaging subsystem including alignment verification and field-of-view analysis.</em>
 </p>
 
 ### Thermal Imaging Output
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermal%20gradient.png" width="500"><br>
   <em>Figure – Thermal imaging output captured through the ZnSe viewport during subsystem validation testing.</em>
 </p>
 
@@ -417,7 +430,7 @@ Drawings incorporated:
 
 ### Manufacturing Documentation
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Screenshot%202026-01-31%20173111.png" width="500"><br>
   <em>Figure – Example manufacturing drawing showing GD&T implementation and vacuum-compatible tolerancing for subsystem hardware.</em>
 </p>
 
@@ -447,23 +460,6 @@ Potential future improvements include:
 - Expanded thermal characterization capability
 - Automated imaging synchronization
 - Additional contamination protection for optical components
-
----
-
-## Contributions
-
-### Tomas Puente
-
-Primary ownership of:
-
-- Hybrid visualization subsystem architecture
-- Digital camera subsystem integration
-- Thermal imaging subsystem integration
-- ID clamp mounting strategy
-- Optical alignment analysis
-- Thermal viewport integration
-- Structural validation of mounting interfaces
-- Manufacturing documentation
 
 ---
 
