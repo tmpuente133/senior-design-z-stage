@@ -179,19 +179,26 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
 - 3D printed prototype validation
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/Testfit.png" width="450"><br>
-  <em>Figure – 3D printed prototype used to validate clamp sizing and fit within the vessel geometry prior to machining production hardware.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/Testfit.png" width="46%">
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/testfit2.png" width="42%">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/testfit2.png" width="450"><br>
-  <em>Figure – Physical fit validation of the prototype ID clamp assembly during subsystem integration testing.</em>
+  <em>
+    Figure – 3D printed prototype validation and physical fit testing performed to verify ID clamp sizing and vessel compatibility prior to machining final hardware.
+  </em>
 </p>
   
 - Turning and tapping of ID clamp hardware
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathepic.png" width="450"><br>
-  <em>Figure – Turning and tapping operations performed during fabrication of the custom ID clamp hardware.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathegif.gif" width="42%">
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathepic.png" width="32%">
+</p>
+
+<p align="center">
+  <em>
+    Figure – Machining operations and motion testing of the custom ID clamp and digital camera subsystem during fabrication and integration.
+  </em>
 </p>
   
 - Rail assembly integration
