@@ -166,9 +166,9 @@ The system provides stable imaging throughout the vessel workspace while remaini
 
 The subsystem progressed through prototyping, fabrication, and full in-vacuum integration.
 
-### Fabrication Process
 
-- Raw stock, will be reduced based off of CMM measurement of vessel geometry
+### Raw stock 
+- Will be reduced based off of CMM measurement of vessel geometry
 
  <p align="center">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/rawstock.png" width="450"><br>
@@ -177,7 +177,7 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
 ---
 
-- 3D printed prototype validation
+### 3D printed prototype validation
 <p align="center">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/Testfit.png" width="46%">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/testfit2.png" width="42%">
@@ -188,8 +188,10 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
     Figure – 3D printed prototype validation and physical fit testing performed to verify ID clamp sizing and vessel compatibility prior to machining final hardware.
   </em>
 </p>
+
+---
   
-- Turning and tapping of ID clamp hardware
+### Turning and tapping of ID clamp hardware
 <p align="center">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathegif.gif" width="42%">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathepic.png" width="32%">
@@ -200,8 +202,10 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
     Figure – Machining operations and motion testing of the custom ID clamp and digital camera subsystem during fabrication and integration.
   </em>
 </p>
+
+---
   
-- Rail assembly integration
+### Rail assembly integration
 
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/full%20digicam%20assembly.png" width="700"><br>
@@ -226,10 +230,17 @@ The final subsystem successfully met all digital visualization performance requi
 
 ---
 
-### Digital Camera System Validation
+### Digital Camera Installation Validation
+
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="650"><br>
-  <em>Figure – Validation testing of the digital camera subsystem including articulation range, field-of-view verification, and clamp stability testing.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/IDclampfitmentverifcation.png" width="36%">
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/fitmentverifiation.gif" width="60%">
+</p>
+
+<p align="center">
+  <em>
+    Figure – ID clamp fitment verification and subsystem motion validation performed during integration testing inside the vacuum vessel.
+  </em>
 </p>
 
 ---
