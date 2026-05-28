@@ -170,28 +170,28 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
 - Raw stock, will be reduced based off of CMM measurement of vessel geometry
 
-  <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/rawstock.png" width="700"><br>
-  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+ <p align="center">
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/rawstock.png" width="450"><br>
+  <em>Figure – Raw Mitee-Bite stock used for fabrication of custom ID expansion clamps prior to final machining and sizing operations.</em>
 </p>
 
 ---
 
 - 3D printed prototype validation
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Testfit.png" width="700"><br>
-  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/Testfit.png" width="450"><br>
+  <em>Figure – 3D printed prototype used to validate clamp sizing and fit within the vessel geometry prior to machining production hardware.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/testfit2.png" width="700"><br>
-  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/testfit2.png" width="450"><br>
+  <em>Figure – Physical fit validation of the prototype ID clamp assembly during subsystem integration testing.</em>
 </p>
   
 - Turning and tapping of ID clamp hardware
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/lathepic.png" width="700"><br>
-  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathepic.png" width="450"><br>
+  <em>Figure – Turning and tapping operations performed during fabrication of the custom ID clamp hardware.</em>
 </p>
   
 - Rail assembly integration
