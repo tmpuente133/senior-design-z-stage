@@ -29,7 +29,7 @@ Together, these systems provide continuous optical and thermal monitoring withou
 
 ### System Level Design
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/sld.png" width="700"><br>
   <em>Figure – System-level diagram showing internal digital imaging, external thermal imaging, and subsystem integration inside the EUV test vessel.</em>
 </p>
 
@@ -57,7 +57,7 @@ The final design utilizes an internally mounted camera assembly supported by ID 
 
 ### Digital Camera System Overview
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digitalcameracadfullintegration.png" width="500"><br>
   <em>Figure – Internal view of the vacuum vessel showing the positioning and integration of the digital camera subsystem.</em>
 </p>
 
@@ -96,7 +96,12 @@ The internally mounted **80/20 rail system** was selected due to its balance of:
 
 ### Digital Camera Trade Studies
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Screenshot%202026-05-23%20174048.png" width="700"><br>
+    <em>Figure – Four Potential Mounting Methods Considered in the Decision Matrix.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digicammountingtradestudy.png" width="700"><br>
   <em>Figure – Weighted decision matrix and concept evaluation used to select the final internal camera mounting architecture.</em>
 </p>
 
