@@ -128,38 +128,8 @@ The mounting strategy allows stable positioning of the camera assembly while mai
 
 ### ID Clamp Mounting Interface
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="450"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Screenshot%202026-01-31%20183246.jpg" width="450"><br>
   <em>Figure – ID expansion clamp interface used to rigidly mount the digital camera rail system to existing vessel geometry.</em>
-</p>
-
----
-
-## Structural Validation of Clamp Interface
-
-Because the camera assembly is fully supported through frictional contact with the vessel wall, structural validation of the clamp interface was required.
-
-Finite element analysis was performed to evaluate:
-
-- Stress distribution
-- Contact loading
-- Off-axis moment loading
-- Clamp stiffness
-- Potential slip conditions
-
-Results confirmed that the mounting interface provides sufficient stiffness and safety margin under operational loading conditions.
-
----
-
-### ID Clamp Load Case
-<p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="450"><br>
-  <em>Figure – Boundary conditions and loading configuration used to validate the structural behavior of the ID clamp interface.</em>
-</p>
-
-### Finite Element Analysis Results
-<p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="500"><br>
-  <em>Figure – Finite element analysis results showing stress distribution within the ID clamp under operational loading conditions.</em>
 </p>
 
 ---
@@ -180,13 +150,13 @@ The system provides stable imaging throughout the vessel workspace while remaini
 
 ### Final Digital Camera CAD Assembly
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="600"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digitalcamcad.jpg" width="600"><br>
   <em>Figure – Final CAD assembly of the internally mounted digital camera subsystem.</em>
 </p>
 
 ### Integrated Digital Camera System
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="600"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digitalcamintegration.png" width="600"><br>
   <em>Figure – Fully integrated digital imaging subsystem installed inside the vacuum vessel.</em>
 </p>
 
@@ -198,7 +168,7 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
 ### Fabrication Activities
 
-- CMM measurement of vessel geometry
+- Based off of CMM measurement of vessel geometry
 - 3D printed prototype validation
 - Turning and tapping of ID clamp hardware
 - Rail assembly integration
@@ -210,9 +180,32 @@ Rapid prototyping significantly reduced manufacturing risk and prevented costly 
 
 ### Digital Camera Fabrication and Prototyping
 <p align="center">
-  <img src="images/INSERT_IMAGE_NAME.png" width="700"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/rawstock.png" width="700"><br>
   <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
 </p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Testfit.png" width="700"><br>
+  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/testfit2.png" width="700"><br>
+  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/lathepic.png" width="700"><br>
+  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/full%20digicam%20assembly.png" width="700"><br>
+  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+</p>
+
+
+
 
 ---
 
