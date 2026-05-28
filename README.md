@@ -166,24 +166,18 @@ The system provides stable imaging throughout the vessel workspace while remaini
 
 The subsystem progressed through prototyping, fabrication, and full in-vacuum integration.
 
-### Fabrication Activities
+### Fabrication Process
 
-- Based off of CMM measurement of vessel geometry
-- 3D printed prototype validation
-- Turning and tapping of ID clamp hardware
-- Rail assembly integration
-- Final subsystem fit validation
+- Raw stock, will be reduced based off of CMM measurement of vessel geometry
 
-Rapid prototyping significantly reduced manufacturing risk and prevented costly rework of long lead-time hardware.
-
----
-
-### Digital Camera Fabrication and Prototyping
-<p align="center">
+  <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/rawstock.png" width="700"><br>
   <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
 </p>
 
+---
+
+- 3D printed prototype validation
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Testfit.png" width="700"><br>
   <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
@@ -193,19 +187,21 @@ Rapid prototyping significantly reduced manufacturing risk and prevented costly 
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/testfit2.png" width="700"><br>
   <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
 </p>
-
+  
+- Turning and tapping of ID clamp hardware
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/lathepic.png" width="700"><br>
   <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
 </p>
+  
+- Rail assembly integration
 
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/full%20digicam%20assembly.png" width="700"><br>
   <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
 </p>
 
-
-
+Rapid prototyping significantly reduced manufacturing risk and prevented costly rework of long lead-time hardware.
 
 ---
 
