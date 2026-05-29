@@ -293,13 +293,14 @@ ZnSe was selected due to:
   
 ### Thermal Camera Trade Studies
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermalcamtradestudy.png" width="500"><br>
-  <em>Figure – Trade study evaluation comparing infrared viewport materials and thermal subsystem integration concepts.</em>
+ <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/thermalcamtradestudy.png" width="25%">
+ <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/thermalcamtradestudy1.png" width="65%">
 </p>
 
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermalcamtradestudy1.png" width="700"><br>
-  <em>Figure – Trade study evaluation comparing infrared viewport materials and thermal subsystem integration concepts.</em>
+  <em>
+    Figure – Trade study evaluation comparing infrared viewport materials, integration approaches, and thermal imaging subsystem design concepts.
+  </em>
 </p>
 
 Seperate trade studies also considered:
@@ -360,17 +361,17 @@ The subsystem was designed for modularity, maintainability, and future experimen
 
 ### Thermal System Fabrication
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/3dflirfab2.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/3dflirfab2.png" width="400"><br>
   <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/heatsetinsert3.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/heatsetinsert3.png" width="400"><br>
   <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/hardwareinstallflirmount.png" width="500"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/hardwareinstallflirmount.png" width="300"><br>
   <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
 </p>
 
@@ -403,7 +404,7 @@ The subsystem successfully met all thermal imaging performance requirements.
 
 ### Thermal Imaging Output
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermal%20gradient.png" width="450"><br>
+  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermal%20gradient.png" width="400"><br>
   <em>Figure – Thermal imaging output captured through the ZnSe viewport during subsystem validation testing.</em>
 </p>
 
