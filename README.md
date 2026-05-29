@@ -193,8 +193,8 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
   
 ### Turning and tapping of ID clamp hardware
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathegif.gif" width="42%">
-  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathepic.png" width="32%">
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathegif.gif" width="30%">
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/lathepic.png" width="23%">
 </p>
 
 <p align="center">
