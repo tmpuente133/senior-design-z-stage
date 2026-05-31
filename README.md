@@ -65,45 +65,54 @@ The final design utilizes an internally mounted camera assembly supported by ID 
 
 ## Digital Camera Design Trade Studies
 
+<table>
+<tr>
+<td width="55%" valign="top">
+
 Several camera positioning architectures were evaluated during concept development.
 
 ### Concepts Evaluated
 
-- External tripod-mounted camera
-- Internal articulating arm
-- Internal scissor-lift mechanism
-- Internal 80/20 rail system
+- External tripod-mounted camera  
+- Internal articulating arm  
+- Internal scissor-lift mechanism  
+- Internal 80/20 rail system  
 
 Evaluation criteria included:
 
-- Articulation performance
-- Structural rigidity
-- Reliability
-- Space envelope
-- Manufacturability
-- Integration complexity
-- Cost
+- Articulation performance  
+- Structural rigidity  
+- Reliability  
+- Space envelope  
+- Manufacturability  
+- Integration complexity  
+- Cost  
 
 The internally mounted **80/20 rail system** was selected due to its balance of:
 
-- Rigidity
-- Positioning capability
-- Modular adjustability
-- Integration compatibility
-- Reliability inside the vacuum environment
+- Rigidity  
+- Positioning capability  
+- Modular adjustability  
+- Integration compatibility  
+- Reliability inside the vacuum environment  
 
----
+</td>
 
-### Digital Camera Trade Studies
+<td width="45%" valign="top">
+
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Screenshot%202026-05-23%20174048.png" width="700"><br>
-    <em>Figure – Four Potential Mounting Methods Considered in the Decision Matrix.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/Screenshot%202026-05-23%20174048.png" width="100%"><br>
+  <em>Figure – Four potential camera mounting architectures evaluated during subsystem concept development.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digicammountingtradestudy.png" width="700"><br>
-  <em>Figure – Weighted decision matrix and concept evaluation used to select the final internal camera mounting architecture.</em>
+  <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/digicammountingtradestudy.png" width="100%"><br>
+  <em>Figure – Weighted decision matrix used to evaluate and select the final digital camera mounting architecture.</em>
 </p>
+
+</td>
+</tr>
+</table>
 
 ---
 
