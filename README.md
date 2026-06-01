@@ -221,8 +221,6 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
   <em> Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
 </p>
 
-Rapid prototyping significantly reduced manufacturing risk and prevented costly rework of long lead-time hardware.
-
 ---
 
 ## Digital Camera Validation Testing
