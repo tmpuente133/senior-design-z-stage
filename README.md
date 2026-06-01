@@ -306,17 +306,9 @@ ZnSe was selected due to:
 
 <p align="center">
   <em>
-    Trade study evaluation comparing infrared viewport materials, integration approaches, and thermal imaging subsystem design concepts.
+    Example trade study evaluation comparing infrared viewport materials, integration approaches, and thermal imaging subsystem design concepts.
   </em>
 </p>
-
-Seperate trade studies also considered:
-
-- Integration complexity
-- Alignment capability
-- Vacuum compatibility
-- Manufacturability
-- Long-term serviceability
 
 ---
 
