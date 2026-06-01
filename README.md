@@ -30,7 +30,7 @@ Together, these systems provide continuous optical and thermal monitoring withou
 ### System Level Design
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/sld.png" width="700"><br>
-  <em>Figure – System-level diagram showing internal digital imaging, external thermal imaging, and subsystem integration inside the EUV test vessel.</em>
+  <em> System-level diagram showing internal digital imaging, external thermal imaging, and subsystem integration inside the EUV test vessel.</em>
 </p>
 
 ---
@@ -58,7 +58,7 @@ The final design utilizes an internally mounted camera assembly supported by ID 
 ### Digital Camera System Overview
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digitalcameracadfullintegration.png" width="500"><br>
-  <em>Figure – Internal view of the vacuum vessel showing the positioning and integration of the digital camera subsystem.</em>
+  <em> Internal view of the vacuum vessel showing the positioning and integration of the digital camera subsystem.</em>
 </p>
 
 ---
@@ -102,12 +102,12 @@ The internally mounted **80/20 rail system** was selected due to its balance of:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/Screenshot%202026-05-23%20174048.png" width="100%"><br>
-  <em>Figure – Four potential camera mounting architectures evaluated during subsystem concept development.</em>
+  <em> Four potential camera mounting architectures evaluated during subsystem concept development.</em>
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/digicammountingtradestudy.png" width="100%"><br>
-  <em>Figure – Weighted decision matrix used to evaluate and select the final digital camera mounting architecture.</em>
+  <em> Weighted decision matrix used to evaluate and select the final digital camera mounting architecture.</em>
 </p>
 
 </td>
@@ -138,7 +138,7 @@ The mounting strategy allows stable positioning of the camera assembly while mai
 ### ID Clamp Mounting Interface
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Screenshot%202026-01-31%20183246.jpg" width="450"><br>
-  <em>Figure – ID expansion clamp interface used to rigidly mount the digital camera rail system to existing vessel geometry.</em>
+  <em> ID expansion clamp interface used to rigidly mount the digital camera rail system to existing vessel geometry.</em>
 </p>
 
 ---
@@ -160,13 +160,13 @@ The system provides stable imaging throughout the vessel workspace while remaini
 ### Final Digital Camera CAD Assembly
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digitalcamcad.jpg" width="600"><br>
-  <em>Figure – Final CAD assembly of the internally mounted digital camera subsystem.</em>
+  <em> Final CAD assembly of the internally mounted digital camera subsystem.</em>
 </p>
 
 ### Integrated Digital Camera System
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/digitalcamintegration.png" width="600"><br>
-  <em>Figure – Fully integrated digital imaging subsystem installed inside the vacuum vessel.</em>
+  <em> Fully integrated digital imaging subsystem installed inside the vacuum vessel.</em>
 </p>
 
 ---
@@ -181,7 +181,7 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
  <p align="center">
   <img src="https://raw.githubusercontent.com/tmpuente133/senior-design-z-stage/main/images/rawstock.png" width="450"><br>
-  <em>Figure – Raw Mitee-Bite stock used for fabrication of custom ID expansion clamps prior to final machining and sizing operations.</em>
+  <em> Raw Mitee-Bite stock used for fabrication of custom ID expansion clamps prior to final machining and sizing operations.</em>
 </p>
 
 ---
@@ -194,7 +194,7 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
 <p align="center">
   <em>
-    Figure – 3D printed prototype validation and physical fit testing performed to verify ID clamp sizing and vessel compatibility prior to machining final hardware.
+    3D printed prototype validation and physical fit testing performed to verify ID clamp sizing and vessel compatibility prior to machining final hardware.
   </em>
 </p>
 
@@ -208,7 +208,7 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
 <p align="center">
   <em>
-    Figure – Machining operations and motion testing of the custom ID clamp and digital camera subsystem during fabrication and integration.
+    Machining operations and motion testing of the custom ID clamp and digital camera subsystem during fabrication and integration.
   </em>
 </p>
 
@@ -218,7 +218,7 @@ The subsystem progressed through prototyping, fabrication, and full in-vacuum in
 
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/full%20digicam%20assembly.png" width="700"><br>
-  <em>Figure – Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
+  <em> Prototype validation, machining operations, and final assembly activities for the digital camera subsystem.</em>
 </p>
 
 Rapid prototyping significantly reduced manufacturing risk and prevented costly rework of long lead-time hardware.
@@ -248,7 +248,7 @@ The final subsystem successfully met all digital visualization performance requi
 
 <p align="center">
   <em>
-    Figure – ID clamp fitment verification and subsystem motion validation performed during integration testing inside the vacuum vessel.
+    ID clamp fitment verification and subsystem motion validation performed during integration testing inside the vacuum vessel.
   </em>
 </p>
 
@@ -276,7 +276,7 @@ The system enables non-invasive thermal monitoring without introducing electroni
 ### Thermal Imaging System Overview
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/flirintegratedredbox.png" width="500"><br>
-  <em>Figure – Thermal imaging subsystem showing FLIR integration and ZnSe viewport positioning relative to the vacuum vessel.</em>
+  <em> Thermal imaging subsystem showing FLIR integration and ZnSe viewport positioning relative to the vacuum vessel.</em>
 </p>
 
 ---
@@ -308,7 +308,7 @@ ZnSe was selected due to:
 
 <p align="center">
   <em>
-    Figure – Trade study evaluation comparing infrared viewport materials, integration approaches, and thermal imaging subsystem design concepts.
+    Trade study evaluation comparing infrared viewport materials, integration approaches, and thermal imaging subsystem design concepts.
   </em>
 </p>
 
@@ -343,13 +343,13 @@ The system was designed to:
 ### FLIR Mounting Assembly
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/flirmountexploded.png" width="450"><br>
-  <em>Figure – Custom thermal camera mounting assembly designed for stable FLIR positioning and alignment.</em>
+  <em> Custom thermal camera mounting assembly designed for stable FLIR positioning and alignment.</em>
 </p>
 
 ### ZnSe Viewport Assembly
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/explodedviewport.png" width="450"><br>
-  <em>Figure – Exploded view of the ZnSe infrared viewport assembly integrated into the reducer flange system.</em>
+  <em> Exploded view of the ZnSe infrared viewport assembly integrated into the reducer flange system.</em>
 </p>
 
 ---
@@ -371,17 +371,17 @@ The subsystem was designed for modularity, maintainability, and future experimen
 ### Thermal System Fabrication
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/3dflirfab2.png" width="400"><br>
-  <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
+  <em> Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/heatsetinsert3.png" width="400"><br>
-  <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
+  <em> Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/hardwareinstallflirmount.png" width="300"><br>
-  <em>Figure – Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
+  <em> Thermal subsystem fabrication activities including prototyping, insert installation, and hardware integration.</em>
 </p>
 
 ---
@@ -403,18 +403,18 @@ The subsystem successfully met all thermal imaging performance requirements.
 ### Thermal Imaging Validation
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/fovanalyis.png" width="650"><br>
-  <em>Figure – Validation testing of the thermal imaging subsystem including alignment verification and field-of-view analysis.</em>
+  <em> Validation testing of the thermal imaging subsystem including alignment verification and field-of-view analysis.</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/centeredlens.png" width="500"><br>
-  <em>Figure – Validation testing of the thermal imaging subsystem including alignment verification and field-of-view analysis.</em>
+  <em> Validation testing of the thermal imaging subsystem including alignment verification and field-of-view analysis.</em>
 </p>
 
 ### Thermal Imaging Output
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/thermal%20gradient.png" width="400"><br>
-  <em>Figure – Thermal imaging output captured through the ZnSe viewport during subsystem validation testing.</em>
+  <em> Thermal imaging output captured through the ZnSe viewport during subsystem validation testing.</em>
 </p>
 
 ---
@@ -441,7 +441,7 @@ Drawings incorporated:
 ### Manufacturing Documentation
 <p align="center">
   <img src="https://github.com/tmpuente133/senior-design-z-stage/blob/main/images/Screenshot%202026-01-31%20173111.png" width="500"><br>
-  <em>Figure – Example manufacturing drawing showing GD&T implementation and vacuum-compatible tolerancing for subsystem hardware.</em>
+  <em> Example manufacturing drawing showing GD&T implementation and vacuum-compatible tolerancing for subsystem hardware.</em>
 </p>
 
 ---
